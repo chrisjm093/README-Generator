@@ -23,7 +23,7 @@ function generateDescription( description ){
 }
 
 function generateToC( ToC ){
-  if( ToC === true ){
+ 
     return`
     #Table of Contents
    1. [ Description ] (#desc)
@@ -35,6 +35,6 @@ function generateToC( ToC ){
    7. [GitHub Profile Picture] (#profilePic)
    8. [GitHub Email] (#email)
   `
-  }
+  
 }
 module.exports = generateMarkdown;
