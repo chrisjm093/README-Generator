@@ -39,7 +39,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Past a link to your github profile picture",
+        message: "enter your GitHub user name",
         name: "picLink"
     },
     {
