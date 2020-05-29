@@ -23,8 +23,9 @@ const questions = [
         name: "usage"
     },
     {
-        type: "input",
-        message: "Enter Licence.",
+        type: "list",
+        message: "Select a Licence",
+        choices: ["MIT", "GPLv3", "GPL", "Creative Commons", "Open Source"],
         name: "licence"
     },
     {
@@ -39,7 +40,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "enter your GitHub user name",
+        message: "enter your GitHub user name ",
         name: "picLink"
     },
     {
@@ -73,7 +74,7 @@ function init() {
         
        
     } );
-
+    
 }
 
 init();
