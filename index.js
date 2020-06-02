@@ -24,14 +24,14 @@ const questions = [
     },
     {
         type: "list",
-        message: "Select a Licence",
+        message: "Select a License",
         choices: ["MIT", "GPLv3", "GPL", "Creative Commons", "Open Source"],
-        name: "licence"
+        name: "license"
     },
     {
         type: "input",
-        message: "Who were the contributers?",
-        name: "contributers"
+        message: "Who were the Contributors?",
+        name: "contributors"
     },
     {
         type: "input",
