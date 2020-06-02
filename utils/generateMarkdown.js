@@ -56,14 +56,14 @@ function generateToC(){
 return`
 Table of Contents  
 --
-1. [Description](#desc)
+1. [Description](#description)
 2. [Installation](#install)
 3. [Usage](#usage)
 4. [License](#license)
 5. [Contributers](#contributers)
 6. [Tests](#tests)
-7. [GitHub Profile Picture](#profilePic)
-8. [GitHub Email](#email)
+7. [GitHub Profile Picture](#developer)
+8. [GitHub Email](#contact)
 
 ---
 `
@@ -169,7 +169,7 @@ return `
 
 function generateEmail( email ) {
 return `
-#Developer Contact: 
+#Contact: 
 -- 
 ${email}
 

@@ -1,6 +1,6 @@
 
 
-  # README Generator
+# README Generator
 
 ---
 
@@ -10,14 +10,14 @@
 
 Table of Contents  
 --
-1. [Description](#desc)
+1. [Description](#description)
 2. [Installation](#install)
 3. [Usage](#usage)
 4. [License](#license)
 5. [Contributers](#contributers)
 6. [Tests](#tests)
-7. [GitHub Profile Picture](#profilePic)
-8. [GitHub Email](#email)
+7. [GitHub Profile Picture](#developer)
+8. [GitHub Email](#contact)
 
 ---
 
@@ -26,7 +26,7 @@ Table of Contents
 
 #Description:  
 ---
-This is a terminal app that generates a readme file for GitHub projects
+This is a Terminal application that asks a series of questions. The user's answers are then used to generate a README file that is standardized.
 
 
 
@@ -34,7 +34,7 @@ This is a terminal app that generates a readme file for GitHub projects
 
 #Install: 
 --  
-Clone from GitHub repository and utilize for projects.
+Clone from Github repository and run in Terminal
 
 
 
@@ -42,7 +42,7 @@ Clone from GitHub repository and utilize for projects.
 
 #Usage: 
 -- 
-Use as an improved and easier way to develope a standardized README file.
+Users needing to generate a README file.
 
 
 
@@ -58,7 +58,7 @@ Use as an improved and easier way to develope a standardized README file.
 
 #Contributors: 
 -- 
-Christopher Marti
+Christopher Marti, Anthony Brown
 
 
 
@@ -66,7 +66,7 @@ Christopher Marti
 
 #Tests:   
 --
-Trial and error, but no testing software was used.
+No testing software was utilized.
 
 
 
@@ -82,7 +82,7 @@ Trial and error, but no testing software was used.
 
 
 
-#Developer Contact: 
+#Contact: 
 -- 
 chrisjm093@gmail.com
 
