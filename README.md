@@ -1,9 +1,8 @@
 
 
-# README Generator
+# Good README Generator
 
 ---
-
 
 
 
@@ -12,37 +11,30 @@ Table of Contents
 --
 1. [Description](#description)
 2. [Installation](#install)
-3. [Usage](#usage)
-4. [License](#license)
-5. [Contributers](#contributers)
-6. [Tests](#tests)
-7. [GitHub Profile Picture](#developer)
-8. [GitHub Email](#contact)
+3. [License](#license)
+4. [Contributors](#contributors)
+5. [GitHub Email](#contact)
 
 ---
-
 
 
 
 #Description:  
 ---
-This is a Terminal application that asks a series of questions. The user's answers are then used to generate a README file that is standardized.
-
+Good README Generator is a terminal application that asks a series of questions focused on creating a README. This app helps developers create a good README in an automated and standardized process.
 
 
 
 
 #Install: 
 --  
-Clone from Github repository and run in Terminal
+npm install
 
 
 
 
 
-#Usage: 
 -- 
-Users needing to generate a README file.
 
 
 
@@ -55,28 +47,9 @@ Users needing to generate a README file.
 
 
 
-
 #Contributors: 
 -- 
-Christopher Marti, Anthony Brown
-
-
-
-
-
-#Tests:   
---
-No testing software was utilized.
-
-
-
-
-
-#Developer:  
---
-## chrisjm093  
-
-![GitHub Profile Photo](https://github.com/chrisjm093.png)
+Christopher Marti
 
 
 
@@ -84,7 +57,7 @@ No testing software was utilized.
 
 #Contact: 
 -- 
-chrisjm093@gmail.com
+chrisjm03@gmail.com
 
 
 

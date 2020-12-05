@@ -2,30 +2,19 @@ function generateMarkdown(data) {
 return `
 ${ generateTitle( data.title )}
 
-
 ${ generateToC() }
-
 
 ${ generateDescription( data.description )}
 
-
 ${ generateInstall( data.install )}
-
 
 ${ generateUsage( data.usage )}
 
-
 ${ generateLicense( data.license )}
-
 
 ${ generateContributors( data.contributors )}
 
-
 ${ generateTests( data.tests )}
-
-
-${ generateProfilePic( data.picLink )}
-
 
 ${ generateEmail( data.email )}
 
@@ -60,7 +49,7 @@ Table of Contents
 2. [Installation](#install)
 3. [Usage](#usage)
 4. [License](#license)
-5. [Contributers](#contributers)
+5. [Contributors](#contributors)
 6. [Tests](#tests)
 7. [GitHub Profile Picture](#developer)
 8. [GitHub Email](#contact)
