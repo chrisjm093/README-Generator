@@ -57,7 +57,6 @@ function writeToFile(fileName, data) {
         else console.log( 'Success!' );
     });
 
-
 }
 
 
@@ -69,11 +68,8 @@ function init() {
         .prompt( questions )
         .then( ( response ) => {
 
-            writeToFile( 'README.md', response );
-        
-        
-       
-    } );
+         writeToFile( 'README.md', response );
+        });
     
 }
 

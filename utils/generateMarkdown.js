@@ -1,23 +1,14 @@
 function generateMarkdown(data) {
 return `
 ${ generateTitle( data.title )}
-
 ${ generateToC() }
-
 ${ generateDescription( data.description )}
-
 ${ generateInstall( data.install )}
-
 ${ generateUsage( data.usage )}
-
 ${ generateLicense( data.license )}
-
 ${ generateContributors( data.contributors )}
-
 ${ generateTests( data.tests )}
-
 ${ generateEmail( data.email )}
-
 `; 
 };
 
@@ -43,7 +34,7 @@ ${description}
 function generateToC(){
 
 return`
-Table of Contents  
+## Table of Contents  
 --
 1. [Description](#description)
 2. [Installation](#install)
@@ -51,8 +42,7 @@ Table of Contents
 4. [License](#license)
 5. [Contributors](#contributors)
 6. [Tests](#tests)
-7. [GitHub Profile Picture](#developer)
-8. [GitHub Email](#contact)
+7. [GitHub Email](#contact)
 
 ---
 `
@@ -61,8 +51,8 @@ Table of Contents
 
 function generateInstall( install ){
 return `
-#Install: 
---  
+## Install: 
+---  
 ${install}
 
 `
@@ -71,8 +61,8 @@ ${install}
 
 function generateUsage( usage ){
 return `
-#Usage: 
--- 
+## Usage: 
+--- 
 ${usage}
 
 `
@@ -83,40 +73,40 @@ function generateLicense( license ){
 
 if( license === "MIT"){
 return `
-#License: 
--- 
+## License: 
+--- 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 `
 
 }else if( license === "GPLv3"){
 return`
-#License:  
---
+## License:  
+---
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
 `
 
 }else if( license === "GPL"){
 return`
-#License:
---  
+## License:
+---  
 [![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
 `
 
 }else if( license === "Creative Commons"){
 return`
-#License:
---   
+## License:
+---   
 [![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0)
 
 `
 
 }else{
 return`
-#License:  
---
+## License:  
+---
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 `
@@ -126,8 +116,8 @@ return`
 
 function generateContributors( contributors ){
 return `
-#Contributors: 
--- 
+## Contributors: 
+--- 
 ${contributors}
 
 `
@@ -136,30 +126,30 @@ ${contributors}
 
 function generateTests( tests ){
 return `
-#Tests:   
---
+## Tests:   
+---
 ${tests}
 
 `
 
 };
 
-function generateProfilePic( picLink ) {
-return `
-#Developer:  
---
-## ${picLink}  
+// function generateProfilePic( picLink ) {
+// return `
+// #Developer:  
+// --
+// ## ${picLink}  
 
-![GitHub Profile Photo](https://github.com/${picLink}.png)
+// ![GitHub Profile Photo](https://github.com/${picLink}.png)
 
-`
+// `
 
-};
+// };
 
 function generateEmail( email ) {
 return `
-#Contact: 
--- 
+## Contact: 
+--- 
 ${email}
 
 `
